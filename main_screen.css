@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.body_styling { 
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.025);
+}
+
+.main_container {
+  width: 100%;
+  height: auto;
+}
+
+.img_logo {
+  margin: 20px 0 0 50px;
+  box-shadow: 5px 5px 5px 5px blue;
+}
+
+.upper_container {
+  width: 99.99%;
+  height: 125px;
+  background-color: rgba(67, 201, 241, 0.829); 
+  border-bottom: 3px solid rgba(65, 158, 187, 0.726);
+  box-shadow: 3px 0 3px 3px rgba(65, 158, 187, 0.726); 
+}
+
+.coin_block {
+  margin: 9px 0 0 35px;
+  width: 130px;
+  height: 57px;
+  float: left;
+  border: 1px solid black;
+}
+
+.coin_block_inner {
+  height: 54.5px;
+  width: 99.98%;
+  background-image: url('img/coin_image.png');
+  background-size: 40%;
+  opacity: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.coin_block,
+.coin_block_inner {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.refresh_button,
+.btn_start_game {
+  margin-right: 50px;
+}
+
+.show_time {
+  background: #5CB85C;
+  border: 2px solid green;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+  width: 150px;
+  height: 50px;
+}
+
+.show_time,
+.refresh_button,
+.btn_start_game {
+  float: right;
+}
+
+.shadow_black {
+  width: 99.95%;
+  height: 700px;
+  background: rgba(0,0,0,0.05);
+}
+
+.score_board {
+  width: 50%;
+  height: 250px;
+  top: 100px;
+  visibility: hidden;  
+  left: 300px;
+  border: 6px solid rgb(65, 0, 0);
+  background: rgba(65, 0, 0, 0.74);
+}
+
+.score_heading {
+  position: inherit;
+  bottom: 500px;
+  left: 60px;
+  padding: 5px; 
+  color: #ffffff;
+  font-size: 54px;
+}
+
+.score_board,
+.shadow_black {
+  position: relative;
+}

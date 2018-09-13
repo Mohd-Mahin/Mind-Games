@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Memorize Quickly</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="main_screen.css">
+        <script src="main_screen.js"></script>
+    </head>
+    <body onclick="printId(this.id)" class="body_styling">
+        <form role="form" id="memorize_quickly_form">
+            <div class="upper_container" id="upper_container">
+                <div id="header_image_container">
+                    <img src="img/logo_game.jpg" alt="logo_game.jpg" class="img_logo"/>
+                </div>
+                <div>
+                    <div class="show_time" id="show_time">Timer</div>
+                    <button class="btn btn-success btn-lg refresh_button" type="button" onclick="refreshPage()" name="btn_refresh" id="btn_refresh">Reset Game</button>
+                    <button class="btn btn-success btn-lg btn_start_game" type="button" name="btn_start_game" onclick="startGame()" id="btn_start_game">Start Game</button>
+                </div>
+            </div>
+            <div class="main_container" id="main_container">
+                <script>
+                    displayDivBlock();
+                </script>
+            </div>
+            <div class="shadow_black" id="shadow_black">
+                <div class="score_board" id="score_board">
+                    <h1 class="score_heading" id="score_heading">Your Score</h1>
+                </div>
+            </div>
+        </form>
+    </body>
+</html> 
